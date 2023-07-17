@@ -1,0 +1,40 @@
+@media (max-width: 350px) {
+    .release{
+        margin: 0 8vw !important;
+    }
+}
+
+.app{
+    display: block;
+    margin: 230px 0;
+}
+
+.app h1{
+    text-align: center;
+}
+
+.release{
+    display:inline-block;
+    text-decoration: none;
+    order: 1px solid darkslategrey;
+    background-color: #023047;
+    width: 280px;
+    margin: 0 38vw;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 40px;
+    color: white;
+    border: 1px solid darkslategrey;
+}
+
+.information-table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 200px;
+  }
+  
+  .information-column {
+    flex: 1 0 auto; /* Utilizar flex-grow para que las columnas se expandan */
+    padding: 10px;
+    border: 1px solid black;
+  }
